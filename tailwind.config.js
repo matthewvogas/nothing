@@ -23,6 +23,20 @@ export default {
       },
       colors: {
         'color-bg': 'var(--color-bg)',
+        'color-bg-secondary': 'var(--color-bg-secondary)',
+        'color-text-primary': 'var(--color-text-primary)',
+
+        // borders
+        'color-border-primary': 'rgba(222, 222, 222, 0.40)',
+      },
+      backgroundImage: {
+        'color-text-gradient-primary': 'linear-gradient(180deg, rgba(99, 180, 255, 0) -27.76%, rgba(255, 255, 255, 0.01) 100%), rgba(255, 255, 255, 0.02)',
+      },
+      backdropBlur: {
+        '100': '100px',
+      },
+      padding: {
+        '0.25': '0.0625rem', // 1px
       },
     },
     plugins: [],
