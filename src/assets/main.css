@@ -4,4 +4,10 @@
 
 :root {
     --color-bg: #0D0D0D;
+    --color-bg-secondary: #181818;
+    --color-text-primary: #E6E6E6;
+
+    /* buttons */
+    --color-border-primary: #383838;
+    --color-border-primary-hover: #959595;
 }
