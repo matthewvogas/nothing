@@ -24,6 +24,7 @@ export default {
       colors: {
         'color-bg': 'var(--color-bg)',
         'color-bg-secondary': 'var(--color-bg-secondary)',
+        'color-bg-tertiary': 'var(--color-bg-tertiary)',
         'color-text-primary': 'var(--color-text-primary)',
 
         // borders
