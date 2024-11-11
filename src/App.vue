@@ -6,12 +6,14 @@ import noise from '/noise.png'
 <template>
   <div class="relative h-screen w-screen">
     <div
-      class="absolute inset-0  bg-center"
+      class="absolute inset-0 h-3/4 bg-center"
+      style="background-image: url('/vector.png')"
+    ></div>
+    <div
+      class="absolute inset-0 bg-center opacity-65"
       style="background-image: url('/noise.png')"
     ></div>
-
     <div class="absolute inset-0 bg-color-bg-tertiary"></div>
-
     <div class="relative z-10">
       <Header />
       <router-view />

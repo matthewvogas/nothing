@@ -5,6 +5,10 @@ export default {
   darkMode: false,
   theme: {
     extend: {
+      fontSize: {
+        'size-primary': '124px',
+        'size-secondary': '20px',
+      },
       padding: {
         xs: '1rem',
         sm: '2rem',
@@ -32,6 +36,13 @@ export default {
       },
       backgroundImage: {
         'color-text-gradient-primary': 'linear-gradient(180deg, rgba(99, 180, 255, 0) -27.76%, rgba(255, 255, 255, 0.01) 100%), rgba(255, 255, 255, 0.02)',
+        'text-gradient': 'linear-gradient(180deg, #3B3B3B 0%, #FFF 100%)',
+      },
+      backgroundClip: {
+        text: 'text',
+      },
+      textFillColor: {
+        transparent: 'transparent',
       },
       backdropBlur: {
         '100': '100px',
@@ -39,7 +50,23 @@ export default {
       padding: {
         '0.25': '0.0625rem', // 1px
       },
+      spacing: {
+        'subtitle': '524px', 
+      },
     },
-    plugins: [],
+    plugins: [
+      function ({ addUtilities }) {
+        addUtilities({
+          '.bg-clip-text': {
+            '-webkit-background-clip': 'text',
+            'background-clip': 'text',
+          },
+          '.text-fill-transparent': {
+            '-webkit-text-fill-color': 'transparent',
+            'text-fill-color': 'transparent',
+          },
+        });
+      },
+    ],
   },
 }

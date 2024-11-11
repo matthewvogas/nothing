@@ -27,7 +27,7 @@ export default {
 
 <template>
   <header
-    class="w-full flex justify-center bg-color-bg-secondary backdrop-blur-sm relative overflow-hidden"
+    class="w-full flex justify-center bg-color-bg-secondary backdrop-blur-sm relative overflow-hidden mb-11"
   >
     <div
       class="w-full p-5 max-w-screen-xl-up flex justify-between items-center border-b-animation"
