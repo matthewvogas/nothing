@@ -37,6 +37,7 @@ export default {
       backgroundImage: {
         'color-text-gradient-primary': 'linear-gradient(180deg, rgba(99, 180, 255, 0) -27.76%, rgba(255, 255, 255, 0.01) 100%), rgba(255, 255, 255, 0.02)',
         'text-gradient': 'linear-gradient(180deg, #3B3B3B 0%, #FFF 100%)',
+        'color-bg-gradient-primary': 'linear-gradient(180deg, rgba(99,180,255,0) -27.76%, rgba(255,255,255,0.07) 100%), rgba(255,255,255,0.02)',
       },
       backgroundClip: {
         text: 'text',
@@ -46,12 +47,18 @@ export default {
       },
       backdropBlur: {
         '100': '100px',
+        '10': '10px',
       },
       padding: {
-        '0.25': '0.0625rem', // 1px
+        '0.25': '0.0625rem',
       },
       spacing: {
         'subtitle': '524px', 
+        'box': '792px',
+        'sm': '10px', 
+      },
+      boxShadow: {
+        'sm': '0px 0px 10px rgba(0, 0, 0, 0.1)',
       },
     },
     plugins: [
